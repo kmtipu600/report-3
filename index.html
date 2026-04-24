@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Smart Calculator + Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Smart Calculator & Timer</h1>
+
+<button id="themeToggle">Toggle Dark/Light</button>
+
+<div class="container">
+
+    
+    <div class="box">
+        <h2>Calculator</h2>
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <button>7</button><button>8</button><button>9</button><button>/</button>
+            <button>4</button><button>5</button><button>6</button><button>*</button>
+            <button>1</button><button>2</button><button>3</button><button>-</button>
+            <button>0</button><button>C</button><button>=</button><button>+</button>
+        </div>
+
+        <h3>History</h3>
+        <ul id="history"></ul>
+    </div>
+
+    
+    <div class="box">
+        <h2>Timer</h2>
+        <div id="timer">00:00:00</div>
+
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
